@@ -1,5 +1,4 @@
 ABCabc123
 Hello World!
-Тестовые данные 2024
 Java Scanner example
 Line 5

@@ -1,4 +1,3 @@
-// practice40/ScannerFileExample.java
 package practice41;
 
 import java.io.File;
