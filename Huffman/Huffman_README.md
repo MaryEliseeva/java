@@ -35,25 +35,29 @@
 1. Перейдите в папку проекта:
 
 
+```bash
 cd <путь_к_папке>/Huffman
-
+```
 Скомпилируйте проект:
-
+```bash
 javac HuffmanCompressor.java
-
+```
 Запуск возможен через командную строку:
 
+```bash
 java HuffmanCompressor <encode/decode> <входной файл> <выходной файл>
-
+```
 ## Использование
 Примеры:
 
 Текстовый файл с 10 одинаковыми символами
 
+```bash
 echo "1111111111" > test1.txt
 java HuffmanCompressor encode test1.txt output1.huff
 java HuffmanCompressor decode output1.huff decoded1.txt
 
+```
 
 ## Структура закодированного файла
 
@@ -62,8 +66,12 @@ java HuffmanCompressor decode output1.huff decoded1.txt
 Закодированные данные – строка из битовых кодов (0 и 1), соответствующая исходному файлу.
 
 Таблица кодов – строка TABLE, затем список соответствий символ → код:
+
+```bash
 1010101110
 TABLE
 49:0
 50:10
 51:11
+
+```
